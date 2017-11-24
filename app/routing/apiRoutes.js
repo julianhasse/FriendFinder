@@ -13,11 +13,11 @@ module.exports = function(app){
             friends.displayFriends()
                 // chaining promises
                 .then((tennisPals) => res.json(tennisPals))
-                .catch((err) => {if (err) console.log(err)}); // reject
+                .catch((err) => {if (err) console.log(err)}); 
         });
 
 
-        app.post('api/friends', (req, res) => {
+        app.post('/api/friends', (req, res) => {
                 // chaining promises
             friends.matchPlayers(req.body)
                 .then((friend) => {
