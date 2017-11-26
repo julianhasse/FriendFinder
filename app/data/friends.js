@@ -28,7 +28,7 @@ function updateFile(object){
                 myArray = JSON.parse(data);
             }
             myArray.push(object);
-            // Add new tennis players to the tennisPartners.json file
+            // Add new tennis players to the tennisPartners.json file / indentation 5
             fs.writeFile(file, JSON.stringify(myArray, null, 5), (err) => {
                 if (err) console.log (err);
             });
@@ -78,7 +78,7 @@ function matchPlayers(obj){
                 scores: []
             }
 
-            var lowestDiff = 50;
+            var lowestDelta = 50;
 
             tennisPals.forEach((e, i) => {
                 // Compute Delta between current user and previous scores stored in array
@@ -87,8 +87,8 @@ function matchPlayers(obj){
                 .reduce((total, value, index) => {
                     return total + Math.abs(value - playerScores[index]);
                 });
-                    if (delta < lowestDiff){
-                        lowestDiff = delta;
+                    if (delta < lowestDelta){
+                        lowestDelta = delta;
                         closestMatch = tennisPals[i];
                     }
             });

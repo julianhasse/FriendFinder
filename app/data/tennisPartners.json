@@ -190,5 +190,37 @@
                "3",
                "5"
           ]
+     },
+     {
+          "name": "John McEnroe",
+          "photo": "http://www.palmbeachpost.com/rf/image/Pub/p4/PalmBeachPost/2013/02/23/Images/photos.medleyphoto.3137508.jpg",
+          "scores": [
+               "2",
+               "1",
+               "2",
+               "1",
+               "1",
+               "2",
+               "3",
+               "1",
+               "2",
+               "1"
+          ]
+     },
+     {
+          "name": "Novak Djokovic ",
+          "photo": "http://images.indianexpress.com/2016/04/djokovic-759.jpg",
+          "scores": [
+               "3",
+               "3",
+               "3",
+               "3",
+               "3",
+               "3",
+               "3",
+               "3",
+               "3",
+               "3"
+          ]
      }
 ]

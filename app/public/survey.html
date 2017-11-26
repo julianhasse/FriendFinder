@@ -57,15 +57,6 @@ h2, h4 {
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-
-/* Media queries */
-    @media only screen and (max-width: 600px) 
-    {#main {margin-left: 0}
-    #smoke {height: 65%; width: 65%;}}
-    @media only screen and (max-width : 992px) {
-    #main {margin-left: 10}
-    #smoke {height: 65%; width: 65%;}}
-
 </style>
 
 
@@ -299,7 +290,7 @@ $("#submitForm").on("click", function(){
       var currentURL = window.location.origin;
 
       // AJAX post of the user input
-      $.post(currentURL + "/api/friends", userData, function(data){
+      $.post(currentURL + "/api/friends", userData, (data) => {
           // Matching Functionality
           $("#playerName").text(data.name);
           $('#playerPhoto').attr("src", data.photo);
@@ -309,7 +300,7 @@ $("#submitForm").on("click", function(){
       });
   }
   else
-  {       // Alert Modal
+  {       // Alert Modal missing field
          $("#alertModal").modal();
 
   }
