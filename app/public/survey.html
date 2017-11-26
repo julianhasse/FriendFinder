@@ -19,6 +19,7 @@
 <!-- Styles  -->
 <style>
     @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    
 
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
@@ -250,7 +251,9 @@ h2, h4 {
       </div>
     <!-- End Alert Modal -->
 
+
 <script type="text/javascript">
+// Chosen config
 var config = {
 '.chosen-select'           : {},
 '.chosen-select-deselect'  : {allow_single_deselect:true},
@@ -284,14 +287,14 @@ $("#submitForm").on("click", function(){
       var userData = {
           name: $("#name").val(),
           photo: $("#photo").val(),
-          scores: [$("#question_01").val(), $("#question_02").val(), $("#question_03").val(), $("#question_04").val(), $("#question_05").val(), $("#question_06").val(), $("#question_07").val(), $("#question_08").val(), $("#question_09").val(), $("#question_10").val(), ]
+          scores: [$("#question_01").val().trim(), $("#question_02").val().trim(), $("#question_03").val().trim(), $("#question_04").val().trim(), $("#question_05").val().trim(), $("#question_06").val().trim(), $("#question_07").val().trim(), $("#question_08").val().trim(), $("#question_09").val().trim(), $("#question_10").val().trim(), ]
       }
-      // Website URL
+      // Current URL
       var currentURL = window.location.origin;
 
       // AJAX post of the user input
       $.post(currentURL + "/api/friends", userData, (data) => {
-          // Matching Functionality
+          // Matching partner name and photo
           $("#playerName").text(data.name);
           $('#playerPhoto').attr("src", data.photo);
 

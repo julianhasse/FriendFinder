@@ -3,160 +3,160 @@
           "name": "Pete Sampras",
           "photo": "http://img.bleacherreport.net/img/article/media_slots/photos/002/295/610/10f87c162a3d28abde495bdbbd7dbb52_crop_exact.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top",
           "scores": [
-               5,
-               5,
-               5,
-               4,
-               5,
-               3,
-               4,
-               3,
-               5,
-               5
+               "5",
+               "5",
+               "5",
+               "4",
+               "5",
+               "3",
+               "4",
+               "3",
+               "5",
+               "5"
           ]
      },
      {
           "name": "Boris Becker",
           "photo": "https://thenypost.files.wordpress.com/2017/06/rtxf1tm.jpg?quality=90&strip=all&w=661&strip=all",
           "scores": [
-               4,
-               4,
-               4,
-               3,
-               3,
-               3,
-               3,
-               4,
-               3,
-               4
+               "4",
+               "4",
+               "4",
+               "3",
+               "3",
+               "3",
+               "3",
+               "4",
+               "3",
+               "4"
           ]
      },
      {
           "name": "Roger Federer",
           "photo": "http://www.abc.net.au/news/image/8873210-3x2-940x627.jpg",
           "scores": [
-               5,
-               5,
-               5,
-               5,
-               5,
-               5,
-               5,
-               5,
-               5,
-               5
+               "5",
+               "5",
+               "5",
+               "5",
+               "5",
+               "5",
+               "5",
+               "5",
+               "5",
+               "5"
           ]
      },
      {
           "name": "Rafael Nadal",
           "photo": "http://e2.365dm.com/17/03/16-9/20/skysports-rafael-nadal-tennis-miami_3917972.jpg?20170327142845",
           "scores": [
-               5,
-               4,
-               5,
-               5,
-               5,
-               4,
-               5,
-               5,
-               3,
-               5
+               "5",
+               "4",
+               "3",
+               "5",
+               "4",
+               "4",
+               "5",
+               "5",
+               "3",
+               "5"
           ]
      },
      {
           "name": "Gabriela Sabatini",
           "photo": "https://images.cdnlenouvelliste.ch/media/image/20/normal_16_9/13531824.jpg",
           "scores": [
-               4,
-               4,
-               4,
-               5,
-               3,
-               4,
-               5,
-               3,
-               3,
-               5
+               "4",
+               "4",
+               "4",
+               "5",
+               "3",
+               "4",
+               "5",
+               "3",
+               "3",
+               "5"
           ]
      },
      {
           "name": "Chris Evert",
           "photo": "https://vz.cnwimg.com/wp-content/uploads/2011/03/Chris-Evert.jpg",
           "scores": [
-               4,
-               4,
-               4,
-               5,
-               3,
-               3,
-               5,
-               3,
-               3,
-               4
+               "4",
+               "4",
+               "4",
+               "5",
+               "3",
+               "3",
+               "5",
+               "3",
+               "3",
+               "4"
           ]
      },
      {
           "name": "Martina Navratilova",
           "photo": "http://www.stevegtennis.com/wp-content/uploads/Martina-Navratilova.jpg",
           "scores": [
-               5,
-               5,
-               4,
-               5,
-               4,
-               3,
-               5,
-               3,
-               4,
-               4
+               "5",
+               "5",
+               "4",
+               "5",
+               "4",
+               "3",
+               "5",
+               "3",
+               "4",
+               "4"
           ]
      },
      {
           "name": "Steffi Graf",
           "photo": "https://i.pinimg.com/736x/3c/df/81/3cdf815d373320d408813dffeab30717--steffi-graff-tennis-players.jpg",
           "scores": [
-               2,
-               2,
-               2,
-               3,
-               2,
-               3,
-               3,
-               2,
-               3,
-               3
+               "2",
+               "2",
+               "2",
+               "3",
+               "2",
+               "3",
+               "3",
+               "2",
+               "3",
+               "3"
           ]
      },
      {
           "name": "Andre Agassi",
           "photo": "https://statics.sportskeeda.com/wp-content/uploads/2013/12/french-open-tennis-championship-110171070-1387207731.jpg",
           "scores": [
-               4,
-               5,
-               4,
-               5,
-               3,
-               3,
-               5,
-               3,
-               3,
-               4
+               "4",
+               "5",
+               "4",
+               "5",
+               "3",
+               "3",
+               "5",
+               "3",
+               "3",
+               "4"
           ]
      },
      {
           "name": "Serena Williams",
           "photo": "https://media.newyorker.com/photos/590978268b51cf59fc4235a3/master/w_727,c_limit/Thomas-SerenaWilliamsAndyMurrayandaPoliticalWimbledon.jpg",
           "scores": [
-               4,
-               2,
-               3,
-               2,
-               3,
-               4,
-               2,
-               3,
-               4,
-               5
+               "4",
+               "2",
+               "3",
+               "2",
+               "3",
+               "4",
+               "2",
+               "3",
+               "4",
+               "5"
           ]
      },
      {
@@ -221,6 +221,22 @@
                "3",
                "3",
                "3"
+          ]
+     },
+     {
+          "name": "Andy Murray",
+          "photo": "https://d2njx87fm2ttul.cloudfront.net/images/default-source/news-items/andy-murray-wins-rio-2016-olympic-tennis-gold.tmb-t-1200x640.jpg?sfvrsn=0",
+          "scores": [
+               "3",
+               "1",
+               "3",
+               "1",
+               "3",
+               "5",
+               "4",
+               "2",
+               "5",
+               "4"
           ]
      }
 ]
