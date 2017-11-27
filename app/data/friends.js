@@ -5,7 +5,7 @@
 const fs = require('fs');
 // file system package
 
-var file = './app/data/tennisPartners.json';
+const file = './app/data/tennisPartners.json';
 // current list of tennis partners
 
 //====================================================================//
@@ -23,7 +23,7 @@ function updateFile(object){
             if (err) {
                 console.log(err);
             }
-            var myArray = [];
+            let myArray = [];
             if (data) {
                 myArray = JSON.parse(data);
             }
@@ -43,7 +43,7 @@ function displayFriends(){
             if(err) {
                 reject(err);
             } 
-            var myArray = [];
+            let myArray = [];
                 if (data) {
                     myArray = JSON.parse(data);
                 }
@@ -67,22 +67,22 @@ function matchPlayers(obj){
 
         displayFriends().then((tennisPals) => {
 
-            var playerScores = obj.scores;
+            let playerScores = obj.scores;
             
             playerScores.map((num) => parseInt(num));
-            // convert to numbers
+            // convert strings to numbers
 
-            var closestMatch = {
+            let closestMatch = {
                 name: '',
                 photo: '',
                 scores: []
             }
 
-            var lowestDelta = 50;
+            let lowestDelta = 50;
 
             tennisPals.forEach((e, i) => {
                 // Compute Delta between current user and previous scores stored in array
-                var delta = e.scores.map((e) => parseInt(e))
+                let delta = e.scores.map((e) => parseInt(e))
                 // Reduce the scores array into a single value
                 .reduce((total, value, index) => {
                     return total + Math.abs(value - playerScores[index]);
@@ -92,7 +92,7 @@ function matchPlayers(obj){
                         closestMatch = tennisPals[i];
                     }
             });
-            // user update
+            // stores user into JSON file
             updateFile(obj);
             resolve(closestMatch);
         }).catch((err) => {if (err) reject (err);});
